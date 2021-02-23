@@ -15,6 +15,7 @@
 		7209934025DC155900145F81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7209933E25DC155900145F81 /* LaunchScreen.storyboard */; };
 		7209934B25DC155900145F81 /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7209934A25DC155900145F81 /* CalculatorTests.swift */; };
 		7209935625DC155900145F81 /* CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7209935525DC155900145F81 /* CalculatorUITests.swift */; };
+		7252D69725E265FF005A62F1 /* UIView+TapAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7252D69625E265FF005A62F1 /* UIView+TapAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7209935125DC155900145F81 /* CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7209935525DC155900145F81 /* CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorUITests.swift; sourceTree = "<group>"; };
 		7209935725DC155900145F81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7252D69625E265FF005A62F1 /* UIView+TapAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+TapAnimation.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				7209933325DC155700145F81 /* AppDelegate.swift */,
 				7209933525DC155700145F81 /* SceneDelegate.swift */,
 				7209933725DC155700145F81 /* ViewController.swift */,
+				7252D69625E265FF005A62F1 /* UIView+TapAnimation.swift */,
 				7209933925DC155700145F81 /* Main.storyboard */,
 				7209933C25DC155900145F81 /* Assets.xcassets */,
 				7209933E25DC155900145F81 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7209933825DC155700145F81 /* ViewController.swift in Sources */,
+				7252D69725E265FF005A62F1 /* UIView+TapAnimation.swift in Sources */,
 				7209933425DC155700145F81 /* AppDelegate.swift in Sources */,
 				7209933625DC155700145F81 /* SceneDelegate.swift in Sources */,
 			);
